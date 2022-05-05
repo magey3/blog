@@ -9,7 +9,7 @@ export default function _Navbar () {
     return (
 	<Navbar collapseOnSelect variant="dark" bg="dark" expand="md">
 	    <Container>
-		<Navbar.Brand>Jozef Jabczun&aposs Blog</Navbar.Brand>
+		<Navbar.Brand>Jozef Jabczun&apos;s Blog</Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav" />
 		<Navbar.Collapse id="basic-navbar-nav">
 		    <Nav className="me-auto">

@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     return (
 	<div>
 	    <Head>
-		<title>Jozef Jabczun&aposs Blog</title>
+		<title>Jozef Jabczun&apos;s Blog</title>
 		<link rel="icon" href="/favicon.ico" />
 	    </Head>
 	    <_Navbar />
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 		    <Col/>
 		    <Col sm={7}>
 			<Stack gap={3}>
-			    <PostEntry title="Making this site" date="2022-5-5" href="pages/makingthissite"/>
+			    <PostEntry title="Making this site" date="2022-5-5" post="makingthissite"/>
 			</Stack>
 
 		    </Col>

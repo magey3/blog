@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Link from 'next/link'
-import Url from 'next'
+import React from 'react'
 
 type PostEntryProps = {
-    title: String,
-    date: String,
-    href: String,
+    title: string,
+    date: string,
+    post: string,
 }
 
 const PostEntry = (props: PostEntryProps) => {
@@ -22,7 +22,7 @@ const PostEntry = (props: PostEntryProps) => {
 			<Card.Subtitle>{props.date}</Card.Subtitle>
 		    </Col>
 		    <Col className="align-items-center">
-			<Link href="{props.href}" passHref>
+			<Link href={`/posts/${encodeURIComponent(props.post)}`} passHref>
 			    <Button className="float-end">Read More</Button>
 			</Link>
 		    </Col>
