@@ -12,10 +12,10 @@ const MakingThisSite = () => {
 		    that I made this in like 2 hours.
 		    I chose React with Next JS for the site generation.
 		    CSS was done with Bootstrap and Bootstrap React.
-		    Everything went fine, so there isn't
-		    a lot to talk about - it's just a simple
+		    Everything went fine, so there isn&apost
+		    a lot to talk about - it&aposs just a simple
 		    static site. I might be adding some
-		    more to it later if I'm ever bored again.
+		    more to it later if I&aposm ever bored again.
 		</p>
 	    </Post>
 	</div>

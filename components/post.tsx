@@ -3,18 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import _Navbar from './navbar'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 type PostProps = {
     title: String,
-    children: JSX.element,
+    children: JSX.Element,
 }
 
-const Post = (props) => {
+const Post = (props: PostProps) => {
     return (
 	<div>
 	    <Head>
-		<title>{props.title} - Jozef Jabczun's Blog</title>
+		<title>{props.title} - Jozef Jabczun&aposs Blog</title>
 		<link rel="icon" href="/favicon.ico" />
 	    </Head>
 	    <_Navbar />
